@@ -9,7 +9,8 @@ quickbmsver "0.11"
 math TOC_FILE = 0
 
 # set your AES_KEY here as text or C string ("\x11\x22...") or umodel hex (0x1122...)
-set AES_KEY binary ""
+set AES_KEY binary 0x7ED991ADB6DD601107EB759D03C2F851F1F3D8190EEF90767EE60E632C3DF8F0
+
 putarray 10 -1 ""
 math AES_KEY_IS_SET = 0
 
